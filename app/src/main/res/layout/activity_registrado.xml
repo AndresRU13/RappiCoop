@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registrado">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/Nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/Ape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/apellido"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/Ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edad"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/Cor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_marginTop="25dp"
+        />
+
+</LinearLayout>
